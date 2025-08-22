@@ -2,6 +2,9 @@
 
 An AI-powered web application that detects fake soccer news using machine learning and natural language processing.
 
+**THIS PROJECT IS A PROTOTYPE AND FOR RESEARCH & EDUCATIONAL PURPOSES**
+**Model Training to be updated via news datasets.**
+
 ## 🚀 Features
 
 - **Real-time Analysis**: Instantly classify soccer news as real or fake
@@ -53,3 +56,39 @@ cd frontend
 npm install
 npm run dev  # Start development server
 ```
+
+## How it Works
+1) Text Preprocessing: Cleans input text (remove URLs, punctuation, stopwords)
+2) Feature Extraction: Converts text to numerical features using TF-IDF
+3) Classification: Uses Logistic Regression to predict real/fake
+4) Confidence Scoring: Returns prediction probabilities
+
+## File structure
+fact-check-fc/
+├── backend/
+│   ├── app.py              # Flask API
+│   ├── model_trainer.py    # ML model training
+│   ├── requirements.txt    # Python dependencies
+│   └── *.pkl              # Trained models
+├── frontend/
+│   ├── src/
+│   │   ├── components/    # React components
+│   │   ├── App.jsx       # Main app component
+│   │   └── main.jsx      # Entry point
+│   ├── package.json      # Node dependencies
+│   └── tailwind.config.js # Tailwind configuration
+├── vercel.json           # Deployment configuration
+└── README.md
+
+## Deployment
+Deployed via vercel and if you want to deploy your own locally:
+The application is automatically deployed to Vercel when you push to the main branch.
+
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+This proect was for research and educational purposes during an internship with Elevvo.

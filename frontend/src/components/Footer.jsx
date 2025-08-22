@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="flex justify-center space-x-6 text-sm text-gray-400">
           <span>🤖 AI-Powered</span>
           <span>⚡ Fast Detection</span>
-          <span>🎯 High Accuracy</span>
+          <span>🎯 Accuracy tuning</span>
         </div>
         <p className="text-xs text-gray-500 mt-4">
-          © 2024 Soccer Fact-Checker. Built for educational purposes.
+          © 2025 Soccer Fact-Checker. Built for research & educational purposes.
         </p>
       </div>
     </footer>
