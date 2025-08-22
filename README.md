@@ -11,7 +11,6 @@ An AI-powered web application that detects fake soccer news using machine learni
 - **High Accuracy**: Uses TF-IDF vectorization and Logistic Regression
 - **Modern UI**: Responsive design built with React and Tailwind CSS
 - **Confidence Scoring**: Shows prediction confidence and probabilities
-- **Fast & Reliable**: Deployed on Vercel for optimal performance
 
 ## 🛠️ Tech Stack
 
@@ -28,7 +27,7 @@ An AI-powered web application that detects fake soccer news using machine learni
 - **Tailwind CSS** - Styling
 - **Axios** - HTTP client
 
-### Deployment
+### Deployment:TODO
 - **Vercel** - Hosting platform
 
 ## 🏃‍♂️ Running Locally
@@ -77,12 +76,11 @@ fact-check-fc/
 │   │   └── main.jsx      # Entry point
 │   ├── package.json      # Node dependencies
 │   └── tailwind.config.js # Tailwind configuration
-├── vercel.json           # Deployment configuration
+├── **TODO**: vercel.json           # Deployment configuration
 └── README.md
 
 ## Deployment
-Deployed via vercel and if you want to deploy your own locally:
-The application is automatically deployed to Vercel when you push to the main branch.
+NA - local install
 
 ### Contributing
 1. Fork the repository
